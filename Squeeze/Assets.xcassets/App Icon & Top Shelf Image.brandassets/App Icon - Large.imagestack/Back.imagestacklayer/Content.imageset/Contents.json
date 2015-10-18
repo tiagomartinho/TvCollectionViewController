@@ -2,6 +2,7 @@
   "images" : [
     {
       "idiom" : "tv",
+      "filename" : "SqueezeBack.png",
       "scale" : "1x"
     }
   ],
