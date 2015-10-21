@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		EA7162601BD42CFF00612EFF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71625F1BD42CFF00612EFF /* AppDelegate.swift */; };
-		EA7162621BD42CFF00612EFF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162611BD42CFF00612EFF /* ViewController.swift */; };
+		EA7162621BD42CFF00612EFF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162611BD42CFF00612EFF /* CollectionViewController.swift */; };
 		EA7162651BD42CFF00612EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7162631BD42CFF00612EFF /* Main.storyboard */; };
 		EA7162671BD42CFF00612EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7162661BD42CFF00612EFF /* Assets.xcassets */; };
 		EA7162721BD42CFF00612EFF /* SqueezeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162711BD42CFF00612EFF /* SqueezeTests.swift */; };
 		EA71627D1BD42CFF00612EFF /* SqueezeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */; };
+		EAE96C101BD6DCD60001D42D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +36,7 @@
 /* Begin PBXFileReference section */
 		EA71625C1BD42CFF00612EFF /* Squeeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squeeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA71625F1BD42CFF00612EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA7162611BD42CFF00612EFF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EA7162611BD42CFF00612EFF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		EA7162641BD42CFF00612EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA7162661BD42CFF00612EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7162681BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +46,7 @@
 		EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqueezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqueezeUITests.swift; sourceTree = "<group>"; };
 		EA71627E1BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				EA71625F1BD42CFF00612EFF /* AppDelegate.swift */,
-				EA7162611BD42CFF00612EFF /* ViewController.swift */,
+				EA7162611BD42CFF00612EFF /* CollectionViewController.swift */,
+				EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */,
 				EA7162631BD42CFF00612EFF /* Main.storyboard */,
 				EA7162661BD42CFF00612EFF /* Assets.xcassets */,
 				EA7162681BD42CFF00612EFF /* Info.plist */,
@@ -252,8 +255,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA7162621BD42CFF00612EFF /* ViewController.swift in Sources */,
+				EA7162621BD42CFF00612EFF /* CollectionViewController.swift in Sources */,
 				EA7162601BD42CFF00612EFF /* AppDelegate.swift in Sources */,
+				EAE96C101BD6DCD60001D42D /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,6 +476,7 @@
 				EA7162831BD42CFF00612EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA7162841BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "SqueezeTests" */ = {
 			isa = XCConfigurationList;
@@ -480,6 +485,7 @@
 				EA7162861BD42CFF00612EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EA7162871BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "SqueezeUITests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +494,7 @@
 				EA7162891BD42CFF00612EFF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
