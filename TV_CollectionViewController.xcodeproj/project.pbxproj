@@ -11,8 +11,6 @@
 		EA7162621BD42CFF00612EFF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162611BD42CFF00612EFF /* CollectionViewController.swift */; };
 		EA7162651BD42CFF00612EFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA7162631BD42CFF00612EFF /* Main.storyboard */; };
 		EA7162671BD42CFF00612EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7162661BD42CFF00612EFF /* Assets.xcassets */; };
-		EA7162721BD42CFF00612EFF /* SqueezeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162711BD42CFF00612EFF /* SqueezeTests.swift */; };
-		EA71627D1BD42CFF00612EFF /* SqueezeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */; };
 		EACDACBF1BD812C900413B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDACBD1BD812C900413B04 /* Main.storyboard */; };
 		EACDACC11BD812C900413B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACC01BD812C900413B04 /* Assets.xcassets */; };
 		EACDACC41BD812C900413B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDACC21BD812C900413B04 /* LaunchScreen.storyboard */; };
@@ -22,23 +20,6 @@
 		EAE96C101BD6DCD60001D42D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		EA71626E1BD42CFF00612EFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA7162541BD42CFF00612EFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA71625B1BD42CFF00612EFF;
-			remoteInfo = Squeeze;
-		};
-		EA7162791BD42CFF00612EFF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = EA7162541BD42CFF00612EFF /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EA71625B1BD42CFF00612EFF;
-			remoteInfo = Squeeze;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		EA71625C1BD42CFF00612EFF /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA71625F1BD42CFF00612EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Squeeze/AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,12 +27,6 @@
 		EA7162641BD42CFF00612EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA7162661BD42CFF00612EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7162681BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA71626D1BD42CFF00612EFF /* SqueezeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqueezeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA7162711BD42CFF00612EFF /* SqueezeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqueezeTests.swift; sourceTree = "<group>"; };
-		EA7162731BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqueezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqueezeUITests.swift; sourceTree = "<group>"; };
-		EA71627E1BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EACDACB71BD812C900413B04 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EACDACBE1BD812C900413B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EACDACC01BD812C900413B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,20 +37,6 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		EA7162591BD42CFF00612EFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA71626A1BD42CFF00612EFF /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA7162751BD42CFF00612EFF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -98,8 +59,6 @@
 				EACDACC91BD812F500413B04 /* Squeeze */,
 				EACDACB81BD812C900413B04 /* iOS */,
 				EA71625E1BD42CFF00612EFF /* tvOS */,
-				EA7162701BD42CFF00612EFF /* SqueezeTests */,
-				EA71627B1BD42CFF00612EFF /* SqueezeUITests */,
 				EA71625D1BD42CFF00612EFF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,8 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				EA71625C1BD42CFF00612EFF /* tvOS.app */,
-				EA71626D1BD42CFF00612EFF /* SqueezeTests.xctest */,
-				EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */,
 				EACDACB71BD812C900413B04 /* iOS.app */,
 			);
 			name = Products;
@@ -124,24 +81,6 @@
 			);
 			name = tvOS;
 			path = Squeeze;
-			sourceTree = "<group>";
-		};
-		EA7162701BD42CFF00612EFF /* SqueezeTests */ = {
-			isa = PBXGroup;
-			children = (
-				EA7162711BD42CFF00612EFF /* SqueezeTests.swift */,
-				EA7162731BD42CFF00612EFF /* Info.plist */,
-			);
-			path = SqueezeTests;
-			sourceTree = "<group>";
-		};
-		EA71627B1BD42CFF00612EFF /* SqueezeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */,
-				EA71627E1BD42CFF00612EFF /* Info.plist */,
-			);
-			path = SqueezeUITests;
 			sourceTree = "<group>";
 		};
 		EACDACB81BD812C900413B04 /* iOS */ = {
@@ -185,42 +124,6 @@
 			productReference = EA71625C1BD42CFF00612EFF /* tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EA71626C1BD42CFF00612EFF /* SqueezeTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA7162841BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "SqueezeTests" */;
-			buildPhases = (
-				EA7162691BD42CFF00612EFF /* Sources */,
-				EA71626A1BD42CFF00612EFF /* Frameworks */,
-				EA71626B1BD42CFF00612EFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA71626F1BD42CFF00612EFF /* PBXTargetDependency */,
-			);
-			name = SqueezeTests;
-			productName = SqueezeTests;
-			productReference = EA71626D1BD42CFF00612EFF /* SqueezeTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		EA7162771BD42CFF00612EFF /* SqueezeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = EA7162871BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "SqueezeUITests" */;
-			buildPhases = (
-				EA7162741BD42CFF00612EFF /* Sources */,
-				EA7162751BD42CFF00612EFF /* Frameworks */,
-				EA7162761BD42CFF00612EFF /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				EA71627A1BD42CFF00612EFF /* PBXTargetDependency */,
-			);
-			name = SqueezeUITests;
-			productName = SqueezeUITests;
-			productReference = EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 		EACDACB61BD812C900413B04 /* iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EACDACC81BD812C900413B04 /* Build configuration list for PBXNativeTarget "iOS" */;
@@ -251,20 +154,12 @@
 					EA71625B1BD42CFF00612EFF = {
 						CreatedOnToolsVersion = 7.1;
 					};
-					EA71626C1BD42CFF00612EFF = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = EA71625B1BD42CFF00612EFF;
-					};
-					EA7162771BD42CFF00612EFF = {
-						CreatedOnToolsVersion = 7.1;
-						TestTargetID = EA71625B1BD42CFF00612EFF;
-					};
 					EACDACB61BD812C900413B04 = {
 						CreatedOnToolsVersion = 7.1;
 					};
 				};
 			};
-			buildConfigurationList = EA7162571BD42CFF00612EFF /* Build configuration list for PBXProject "Squeeze" */;
+			buildConfigurationList = EA7162571BD42CFF00612EFF /* Build configuration list for PBXProject "TV_CollectionViewController" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -279,8 +174,6 @@
 			targets = (
 				EA71625B1BD42CFF00612EFF /* tvOS */,
 				EACDACB61BD812C900413B04 /* iOS */,
-				EA71626C1BD42CFF00612EFF /* SqueezeTests */,
-				EA7162771BD42CFF00612EFF /* SqueezeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -292,20 +185,6 @@
 			files = (
 				EA7162671BD42CFF00612EFF /* Assets.xcassets in Resources */,
 				EA7162651BD42CFF00612EFF /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA71626B1BD42CFF00612EFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA7162761BD42CFF00612EFF /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,22 +211,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EA7162691BD42CFF00612EFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA7162721BD42CFF00612EFF /* SqueezeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EA7162741BD42CFF00612EFF /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EA71627D1BD42CFF00612EFF /* SqueezeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		EACDACB31BD812C900413B04 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -359,19 +222,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		EA71626F1BD42CFF00612EFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EA71625B1BD42CFF00612EFF /* tvOS */;
-			targetProxy = EA71626E1BD42CFF00612EFF /* PBXContainerItemProxy */;
-		};
-		EA71627A1BD42CFF00612EFF /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = EA71625B1BD42CFF00612EFF /* tvOS */;
-			targetProxy = EA7162791BD42CFF00612EFF /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		EA7162631BD42CFF00612EFF /* Main.storyboard */ = {
@@ -506,54 +356,6 @@
 			};
 			name = Release;
 		};
-		EA7162851BD42CFF00612EFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SqueezeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tm.SqueezeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squeeze.app/Squeeze";
-			};
-			name = Debug;
-		};
-		EA7162861BD42CFF00612EFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = SqueezeTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tm.SqueezeTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Squeeze.app/Squeeze";
-			};
-			name = Release;
-		};
-		EA7162881BD42CFF00612EFF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SqueezeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tm.SqueezeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Squeeze;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		EA7162891BD42CFF00612EFF /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = SqueezeUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tm.SqueezeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = Squeeze;
-				USES_XCTRUNNER = YES;
-			};
-			name = Release;
-		};
 		EACDACC61BD812C900413B04 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -587,7 +389,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA7162571BD42CFF00612EFF /* Build configuration list for PBXProject "Squeeze" */ = {
+		EA7162571BD42CFF00612EFF /* Build configuration list for PBXProject "TV_CollectionViewController" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA71627F1BD42CFF00612EFF /* Debug */,
@@ -605,24 +407,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA7162841BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "SqueezeTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA7162851BD42CFF00612EFF /* Debug */,
-				EA7162861BD42CFF00612EFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EA7162871BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "SqueezeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				EA7162881BD42CFF00612EFF /* Debug */,
-				EA7162891BD42CFF00612EFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		EACDACC81BD812C900413B04 /* Build configuration list for PBXNativeTarget "iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -630,6 +414,7 @@
 				EACDACC71BD812C900413B04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

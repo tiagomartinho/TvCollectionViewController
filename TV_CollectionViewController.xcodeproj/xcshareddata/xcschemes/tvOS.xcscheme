@@ -17,7 +17,7 @@
                BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
                BuildableName = "tvOS.app"
                BlueprintName = "tvOS"
-               ReferencedContainer = "container:Squeeze.xcodeproj">
+               ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA71626C1BD42CFF00612EFF"
-               BuildableName = "SqueezeTests.xctest"
-               BlueprintName = "SqueezeTests"
-               ReferencedContainer = "container:Squeeze.xcodeproj">
+               BuildableName = "TV_CollectionViewControllerTests.xctest"
+               BlueprintName = "TV_CollectionViewControllerTests"
+               ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA7162771BD42CFF00612EFF"
-               BuildableName = "SqueezeUITests.xctest"
-               BlueprintName = "SqueezeUITests"
-               ReferencedContainer = "container:Squeeze.xcodeproj">
+               BuildableName = "TV_CollectionViewControllerTests.xctest"
+               BlueprintName = "TV_CollectionViewControllerUITests"
+               ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,7 +55,7 @@
             BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
             BuildableName = "tvOS.app"
             BlueprintName = "tvOS"
-            ReferencedContainer = "container:Squeeze.xcodeproj">
+            ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -78,7 +78,7 @@
             BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
             BuildableName = "tvOS.app"
             BlueprintName = "tvOS"
-            ReferencedContainer = "container:Squeeze.xcodeproj">
+            ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -97,7 +97,7 @@
             BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
             BuildableName = "tvOS.app"
             BlueprintName = "tvOS"
-            ReferencedContainer = "container:Squeeze.xcodeproj">
+            ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -17,7 +17,7 @@
                BlueprintIdentifier = "EACDACB61BD812C900413B04"
                BuildableName = "iOS.app"
                BlueprintName = "iOS"
-               ReferencedContainer = "container:Squeeze.xcodeproj">
+               ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "EACDACB61BD812C900413B04"
             BuildableName = "iOS.app"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:Squeeze.xcodeproj">
+            ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "EACDACB61BD812C900413B04"
             BuildableName = "iOS.app"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:Squeeze.xcodeproj">
+            ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "EACDACB61BD812C900413B04"
             BuildableName = "iOS.app"
             BlueprintName = "iOS"
-            ReferencedContainer = "container:Squeeze.xcodeproj">
+            ReferencedContainer = "container:TV_CollectionViewController.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
