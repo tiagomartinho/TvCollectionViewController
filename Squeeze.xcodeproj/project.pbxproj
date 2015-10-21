@@ -13,6 +13,12 @@
 		EA7162671BD42CFF00612EFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA7162661BD42CFF00612EFF /* Assets.xcassets */; };
 		EA7162721BD42CFF00612EFF /* SqueezeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162711BD42CFF00612EFF /* SqueezeTests.swift */; };
 		EA71627D1BD42CFF00612EFF /* SqueezeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */; };
+		EACDACBF1BD812C900413B04 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDACBD1BD812C900413B04 /* Main.storyboard */; };
+		EACDACC11BD812C900413B04 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EACDACC01BD812C900413B04 /* Assets.xcassets */; };
+		EACDACC41BD812C900413B04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EACDACC21BD812C900413B04 /* LaunchScreen.storyboard */; };
+		EACDACCA1BD812FE00413B04 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA71625F1BD42CFF00612EFF /* AppDelegate.swift */; };
+		EACDACCB1BD812FE00413B04 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA7162611BD42CFF00612EFF /* CollectionViewController.swift */; };
+		EACDACCC1BD812FE00413B04 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */; };
 		EAE96C101BD6DCD60001D42D /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -34,9 +40,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EA71625C1BD42CFF00612EFF /* Squeeze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Squeeze.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA71625F1BD42CFF00612EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA7162611BD42CFF00612EFF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		EA71625C1BD42CFF00612EFF /* tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA71625F1BD42CFF00612EFF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Squeeze/AppDelegate.swift; sourceTree = "<group>"; };
+		EA7162611BD42CFF00612EFF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CollectionViewController.swift; path = Squeeze/CollectionViewController.swift; sourceTree = "<group>"; };
 		EA7162641BD42CFF00612EFF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA7162661BD42CFF00612EFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA7162681BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -46,7 +52,12 @@
 		EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SqueezeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA71627C1BD42CFF00612EFF /* SqueezeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SqueezeUITests.swift; sourceTree = "<group>"; };
 		EA71627E1BD42CFF00612EFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		EACDACB71BD812C900413B04 /* iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EACDACBE1BD812C900413B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EACDACC01BD812C900413B04 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EACDACC31BD812C900413B04 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EACDACC51BD812C900413B04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CollectionViewCell.swift; path = Squeeze/CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +82,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EACDACB41BD812C900413B04 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		EA7162531BD42CFF00612EFF = {
 			isa = PBXGroup;
 			children = (
-				EA71625E1BD42CFF00612EFF /* Squeeze */,
+				EACDACC91BD812F500413B04 /* Squeeze */,
+				EACDACB81BD812C900413B04 /* iOS */,
+				EA71625E1BD42CFF00612EFF /* tvOS */,
 				EA7162701BD42CFF00612EFF /* SqueezeTests */,
 				EA71627B1BD42CFF00612EFF /* SqueezeUITests */,
 				EA71625D1BD42CFF00612EFF /* Products */,
@@ -87,23 +107,22 @@
 		EA71625D1BD42CFF00612EFF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA71625C1BD42CFF00612EFF /* Squeeze.app */,
+				EA71625C1BD42CFF00612EFF /* tvOS.app */,
 				EA71626D1BD42CFF00612EFF /* SqueezeTests.xctest */,
 				EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */,
+				EACDACB71BD812C900413B04 /* iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA71625E1BD42CFF00612EFF /* Squeeze */ = {
+		EA71625E1BD42CFF00612EFF /* tvOS */ = {
 			isa = PBXGroup;
 			children = (
-				EA71625F1BD42CFF00612EFF /* AppDelegate.swift */,
-				EA7162611BD42CFF00612EFF /* CollectionViewController.swift */,
-				EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */,
 				EA7162631BD42CFF00612EFF /* Main.storyboard */,
 				EA7162661BD42CFF00612EFF /* Assets.xcassets */,
 				EA7162681BD42CFF00612EFF /* Info.plist */,
 			);
+			name = tvOS;
 			path = Squeeze;
 			sourceTree = "<group>";
 		};
@@ -125,12 +144,33 @@
 			path = SqueezeUITests;
 			sourceTree = "<group>";
 		};
+		EACDACB81BD812C900413B04 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EACDACBD1BD812C900413B04 /* Main.storyboard */,
+				EACDACC01BD812C900413B04 /* Assets.xcassets */,
+				EACDACC21BD812C900413B04 /* LaunchScreen.storyboard */,
+				EACDACC51BD812C900413B04 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		EACDACC91BD812F500413B04 /* Squeeze */ = {
+			isa = PBXGroup;
+			children = (
+				EA71625F1BD42CFF00612EFF /* AppDelegate.swift */,
+				EA7162611BD42CFF00612EFF /* CollectionViewController.swift */,
+				EAE96C0F1BD6DCD60001D42D /* CollectionViewCell.swift */,
+			);
+			name = Squeeze;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA71625B1BD42CFF00612EFF /* Squeeze */ = {
+		EA71625B1BD42CFF00612EFF /* tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA7162811BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "Squeeze" */;
+			buildConfigurationList = EA7162811BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "tvOS" */;
 			buildPhases = (
 				EA7162581BD42CFF00612EFF /* Sources */,
 				EA7162591BD42CFF00612EFF /* Frameworks */,
@@ -140,9 +180,9 @@
 			);
 			dependencies = (
 			);
-			name = Squeeze;
+			name = tvOS;
 			productName = Squeeze;
-			productReference = EA71625C1BD42CFF00612EFF /* Squeeze.app */;
+			productReference = EA71625C1BD42CFF00612EFF /* tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
 		EA71626C1BD42CFF00612EFF /* SqueezeTests */ = {
@@ -181,6 +221,23 @@
 			productReference = EA7162781BD42CFF00612EFF /* SqueezeUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		EACDACB61BD812C900413B04 /* iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EACDACC81BD812C900413B04 /* Build configuration list for PBXNativeTarget "iOS" */;
+			buildPhases = (
+				EACDACB31BD812C900413B04 /* Sources */,
+				EACDACB41BD812C900413B04 /* Frameworks */,
+				EACDACB51BD812C900413B04 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOS;
+			productName = iOS;
+			productReference = EACDACB71BD812C900413B04 /* iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +259,9 @@
 						CreatedOnToolsVersion = 7.1;
 						TestTargetID = EA71625B1BD42CFF00612EFF;
 					};
+					EACDACB61BD812C900413B04 = {
+						CreatedOnToolsVersion = 7.1;
+					};
 				};
 			};
 			buildConfigurationList = EA7162571BD42CFF00612EFF /* Build configuration list for PBXProject "Squeeze" */;
@@ -217,7 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA71625B1BD42CFF00612EFF /* Squeeze */,
+				EA71625B1BD42CFF00612EFF /* tvOS */,
+				EACDACB61BD812C900413B04 /* iOS */,
 				EA71626C1BD42CFF00612EFF /* SqueezeTests */,
 				EA7162771BD42CFF00612EFF /* SqueezeUITests */,
 			);
@@ -245,6 +306,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EACDACB51BD812C900413B04 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACDACC41BD812C900413B04 /* LaunchScreen.storyboard in Resources */,
+				EACDACC11BD812C900413B04 /* Assets.xcassets in Resources */,
+				EACDACBF1BD812C900413B04 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,17 +348,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EACDACB31BD812C900413B04 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EACDACCB1BD812FE00413B04 /* CollectionViewController.swift in Sources */,
+				EACDACCA1BD812FE00413B04 /* AppDelegate.swift in Sources */,
+				EACDACCC1BD812FE00413B04 /* CollectionViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		EA71626F1BD42CFF00612EFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA71625B1BD42CFF00612EFF /* Squeeze */;
+			target = EA71625B1BD42CFF00612EFF /* tvOS */;
 			targetProxy = EA71626E1BD42CFF00612EFF /* PBXContainerItemProxy */;
 		};
 		EA71627A1BD42CFF00612EFF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EA71625B1BD42CFF00612EFF /* Squeeze */;
+			target = EA71625B1BD42CFF00612EFF /* tvOS */;
 			targetProxy = EA7162791BD42CFF00612EFF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -299,6 +380,22 @@
 				EA7162641BD42CFF00612EFF /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACDACBD1BD812C900413B04 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACDACBE1BD812C900413B04 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EACDACC21BD812C900413B04 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EACDACC31BD812C900413B04 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -392,7 +489,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Squeeze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tm.Squeeze;
+				PRODUCT_BUNDLE_IDENTIFIER = tm.Squeeze.tvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -404,7 +501,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = Squeeze/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = tm.Squeeze;
+				PRODUCT_BUNDLE_IDENTIFIER = tm.Squeeze.tvOS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -457,6 +554,36 @@
 			};
 			name = Release;
 		};
+		EACDACC61BD812C900413B04 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tm.Squeeze.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EACDACC71BD812C900413B04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tm.Squeeze.iOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -469,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA7162811BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "Squeeze" */ = {
+		EA7162811BD42CFF00612EFF /* Build configuration list for PBXNativeTarget "tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				EA7162821BD42CFF00612EFF /* Debug */,
@@ -495,6 +622,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		EACDACC81BD812C900413B04 /* Build configuration list for PBXNativeTarget "iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EACDACC61BD812C900413B04 /* Debug */,
+				EACDACC71BD812C900413B04 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};

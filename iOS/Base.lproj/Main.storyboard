@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9058" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="lCK-jx-r0P">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9048"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Controller-->
+        <scene sceneID="z8p-eY-ugD">
+            <objects>
+                <collectionViewController id="lCK-jx-r0P" customClass="CollectionViewController" customModule="iOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="LfS-IT-4pO">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="QbZ-ZY-dob">
+                            <size key="itemSize" width="50" height="50"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CollectionViewCell" id="pIt-YA-oGB" customClass="CollectionViewCell" customModule="iOS" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ZAu-nQ-AeO">
+                                            <rect key="frame" x="8" y="8" width="34" height="13"/>
+                                            <animations/>
+                                        </imageView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zRb-pM-OES">
+                                            <rect key="frame" x="8" y="21" width="34" height="21"/>
+                                            <animations/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <animations/>
+                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </view>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="ZAu-nQ-AeO" secondAttribute="trailing" id="0Gc-aG-RU8"/>
+                                    <constraint firstItem="ZAu-nQ-AeO" firstAttribute="leading" secondItem="pIt-YA-oGB" secondAttribute="leadingMargin" id="Dfm-YH-cWn"/>
+                                    <constraint firstItem="zRb-pM-OES" firstAttribute="top" secondItem="ZAu-nQ-AeO" secondAttribute="bottom" id="Hth-am-gY2"/>
+                                    <constraint firstItem="ZAu-nQ-AeO" firstAttribute="top" secondItem="pIt-YA-oGB" secondAttribute="topMargin" id="ewZ-Aw-xc4"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="zRb-pM-OES" secondAttribute="trailing" id="gHs-VN-mKP"/>
+                                    <constraint firstItem="zRb-pM-OES" firstAttribute="leading" secondItem="pIt-YA-oGB" secondAttribute="leadingMargin" id="mcj-1T-9Sd"/>
+                                    <constraint firstItem="zRb-pM-OES" firstAttribute="top" secondItem="ZAu-nQ-AeO" secondAttribute="bottom" id="zMy-Cd-WKx"/>
+                                    <constraint firstAttribute="bottomMargin" secondItem="zRb-pM-OES" secondAttribute="bottom" id="zz7-YV-O8H"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="imageView" destination="ZAu-nQ-AeO" id="N55-cP-tMh"/>
+                                    <outlet property="label" destination="zRb-pM-OES" id="pK2-2P-ppp"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="lCK-jx-r0P" id="1cd-jg-hyt"/>
+                            <outlet property="delegate" destination="lCK-jx-r0P" id="jZR-HE-a1q"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rG9-lu-Wdd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="258" y="342"/>
+        </scene>
+    </scenes>
+</document>

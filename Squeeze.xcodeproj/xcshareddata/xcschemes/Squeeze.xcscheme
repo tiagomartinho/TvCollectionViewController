@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
-               BuildableName = "Squeeze.app"
-               BlueprintName = "Squeeze"
+               BuildableName = "tvOS.app"
+               BlueprintName = "tvOS"
                ReferencedContainer = "container:Squeeze.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -53,8 +53,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
-            BuildableName = "Squeeze.app"
-            BlueprintName = "Squeeze"
+            BuildableName = "tvOS.app"
+            BlueprintName = "tvOS"
             ReferencedContainer = "container:Squeeze.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -76,8 +76,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
-            BuildableName = "Squeeze.app"
-            BlueprintName = "Squeeze"
+            BuildableName = "tvOS.app"
+            BlueprintName = "tvOS"
             ReferencedContainer = "container:Squeeze.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
@@ -95,8 +95,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA71625B1BD42CFF00612EFF"
-            BuildableName = "Squeeze.app"
-            BlueprintName = "Squeeze"
+            BuildableName = "tvOS.app"
+            BlueprintName = "tvOS"
             ReferencedContainer = "container:Squeeze.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
